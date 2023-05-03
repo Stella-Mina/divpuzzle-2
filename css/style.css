@@ -40,3 +40,9 @@ footer{
 .float{
   float: left;
 }
+/* float解除用 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
